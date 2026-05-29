@@ -1,0 +1,218 @@
+.envelope-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  background-color: rgba(41, 52, 39, 0.4);
+  backdrop-filter: blur(8px);
+  transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), 
+              visibility 1s cubic-bezier(0.25, 1, 0.5, 1);
+  padding: 20px;
+}
+
+.envelope-opened {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.envelope-card {
+  background-color: var(--bg-cream);
+  width: 100%;
+  max-width: 420px;
+  height: 600px;
+  max-height: 90vh;
+  border-radius: 12px;
+  border: 1px solid rgba(223, 202, 162, 0.4);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  overflow: hidden;
+  transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.envelope-opened .envelope-card {
+  transform: scale(1.15) translateY(-20px);
+}
+
+/* Elegant borders and corner designs */
+.envelope-card::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  border: 1px solid rgba(93, 117, 84, 0.15);
+  pointer-events: none;
+  border-radius: 8px;
+}
+
+.corner-decor {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235d7554' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z'/%3E%3Cpath d='M12 6c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.35;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.top-left { top: 25px; left: 25px; transform: rotate(0deg); }
+.top-right { top: 25px; right: 25px; transform: rotate(90deg); }
+.bottom-left { bottom: 25px; left: 25px; transform: rotate(270deg); }
+.bottom-right { bottom: 25px; right: 25px; transform: rotate(180deg); }
+
+/* Content wrapper styling */
+.envelope-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 5;
+  width: 100%;
+}
+
+.wedding-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.wedding-header .subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.wedding-header .divider-line {
+  width: 40px;
+  height: 1px;
+  background-color: var(--secondary-color);
+}
+
+.couple-names {
+  font-family: 'Alex Brush', 'Pinyon Script', cursive;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: var(--primary-dark);
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 1px var(--white);
+  animation: fadeInUp 1s cubic-bezier(0.25, 1, 0.5, 1) 0.2s both;
+  text-transform: none;
+}
+
+.wedding-date {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+  animation: fadeInUp 1s cubic-bezier(0.25, 1, 0.5, 1) 0.4s both;
+}
+
+/* Wax Seal Button container */
+.open-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  outline: none;
+  animation: fadeInUp 1.2s cubic-bezier(0.25, 1, 0.5, 1) 0.6s both;
+}
+
+.open-btn:focus .wax-seal {
+  box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.5);
+}
+
+.wax-seal-wrapper {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The physical wax seal */
+.wax-seal {
+  width: 76px;
+  height: 76px;
+  background: radial-gradient(circle at 35% 35%, #d9a352 0%, #aa7a2a 70%, #89601d 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25), 
+              inset 0 2px 4px rgba(255, 255, 255, 0.3),
+              inset 0 -4px 8px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 2;
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  /* Organic uneven border to look like real hot wax */
+  border: 3px solid #b78734;
+  border-top-width: 4px;
+  border-left-width: 5px;
+}
+
+.open-btn:hover .wax-seal {
+  transform: scale(1.06) rotate(3deg);
+}
+
+.seal-logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+/* Soft pulsating circle behind the seal */
+.pulse-ring {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  animation: pulse-soft 2s infinite ease-in-out;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.btn-label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primary-dark);
+  transition: var(--transition-smooth);
+}
+
+.open-btn:hover .btn-label {
+  color: var(--secondary-color);
+  letter-spacing: 2.5px;
+}

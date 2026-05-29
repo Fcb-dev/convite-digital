@@ -1,0 +1,92 @@
+.book-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  transform-origin: left center;
+  transition: transform 0.9s cubic-bezier(0.45, 0, 0.25, 1);
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+/* When flipped, pivot 180 degrees to the left */
+.book-page.flipped {
+  transform: rotateY(-180deg);
+}
+
+/* Ensure the page transitioning stands out above all else */
+.book-page.transitioning {
+  z-index: 100 !important;
+}
+
+/* Each face of the sheet (front and back) */
+.page-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: inset 3px 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.page-front {
+  transform: rotateY(0deg);
+  background-color: var(--bg-cream);
+  z-index: 2;
+}
+
+.page-back {
+  transform: rotateY(180deg);
+  background-color: #f5f2e8;
+  z-index: 1;
+}
+
+/* Paper texture and design for the backing of a page as it flips */
+.paper-texture-backing {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-left: 1px dashed rgba(93, 117, 84, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -5px 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Blurred background of the kissing couple from the cover */
+.paper-texture-backing::before {
+  content: '';
+  position: absolute;
+  inset: -15px; /* Expand to hide blurred border artifacts */
+  background-image: 
+    linear-gradient(to bottom, rgba(30, 25, 20, 0.25) 0%, rgba(30, 25, 20, 0.4) 100%),
+    url('/assets/images/cover.jpg');
+  background-size: cover;
+  background-position: center 25%;
+  filter: blur(8px) saturate(1.1) brightness(0.75);
+  z-index: 1;
+}
+
+.backing-logo {
+  position: relative;
+  z-index: 2;
+  width: 70px;
+  height: 70px;
+  opacity: 0.75; /* Increased opacity for much better contrast and prominence */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
+}
+
+.backing-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

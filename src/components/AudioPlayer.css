@@ -1,0 +1,88 @@
+.audio-player-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.audio-btn {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(8px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  outline: none;
+  transition: var(--transition-smooth);
+}
+
+.audio-btn:hover {
+  background: var(--white);
+  transform: scale(1.08);
+  border-color: var(--secondary-color);
+  box-shadow: 0 4px 15px rgba(93, 117, 84, 0.2);
+}
+
+.audio-btn:active {
+  transform: scale(0.95);
+}
+
+.speaker-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  transition: var(--transition-smooth);
+}
+
+.audio-btn:hover .speaker-icon-wrapper {
+  color: var(--primary-dark);
+}
+
+.speaker-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Sound waves equalizer animation */
+.sound-waves {
+  position: absolute;
+  bottom: -4px;
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 12px;
+  width: auto;
+  pointer-events: none;
+}
+
+.wave-bar {
+  width: 2px;
+  background-color: var(--secondary-color);
+  border-radius: 1px;
+  animation: bounce-wave 1s ease-in-out infinite;
+}
+
+.wave-bar:nth-child(1) { height: 4px; animation-delay: 0.1s; }
+.wave-bar:nth-child(2) { height: 8px; animation-delay: 0.3s; }
+.wave-bar:nth-child(3) { height: 10px; animation-delay: 0s; }
+.wave-bar:nth-child(4) { height: 6px; animation-delay: 0.2s; }
+
+@keyframes bounce-wave {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2.2);
+  }
+}
+
+.audio-muted .speaker-icon-wrapper {
+  color: var(--text-muted);
+}

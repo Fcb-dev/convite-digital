@@ -1,0 +1,984 @@
+{
+  "id": "ddbf9b651eb02eb525fdb9f363bcd781cbef8c2ae",
+  "app_name": "metadata-app-name",
+  "app_ver": "1",
+  "name": "fd9d6cb0246e0960b902536cf3e73736e0a17550.pdf",
+  "custom_name": "fd9d6cb024.html",
+  "domain": "https://heyzine.com",
+  "mode": "PDF",
+  "isize": 1.17284,
+  "width": 810,
+  "height": 1440,
+  "size": "732081",
+  "admin_key": "",
+  "url": "https://heyzine.com/flip-book/fd9d6cb024.html",
+  "surl": "/flip-book/fd9d6cb024.html",
+  "cover": 0,
+  "num_pages": 5,
+  "viewer": "MAGAZINE",
+  "thumbnail": "fd9d6cb0246e0960b902536cf3e73736e0a17550-2.pdf-thumb.jpg",
+  "stats": 1,
+  "readerToken": null,
+  "design": {
+    "type": "magazine",
+    "background": "https://cdnc.heyzine.com/files/user/backgrounds/690745d80a948517b6b754a25e5d350d4bba95b9.png",
+    "background_color": null,
+    "background_style": {
+      "blur": "0",
+      "transparency": "40",
+      "size": "Cover",
+      "position": "center center"
+    },
+    "company_logo": null,
+    "company_logo_link": "https://heyzine.com",
+    "company_logo_link_mode": 0,
+    "company_logo_style": "{\"max-width\":\"20%\",\"top\":\"auto\",\"bottom\":0,\"left\":\"30px\",\"right\":\"auto\"}",
+    "title": "",
+    "subtitle": "",
+    "description": "",
+    "show_slider": 0,
+    "show_download": 0,
+    "show_print": 0,
+    "show_fullscreen": 0,
+    "show_text": 1,
+    "show_shadow": 0,
+    "show_depth": 1,
+    "show_edges": 1,
+    "show_round": 0,
+    "show_binding": 0,
+    "show_center": 1,
+    "show_double": 2,
+    "show_zoom": 0,
+    "show_share": 0,
+    "show_search": 0,
+    "show_thumbpanel": 0,
+    "show_outline": 0,
+    "show_bookmarks": 0,
+    "start_page": null,
+    "end_page": null,
+    "load_page": null,
+    "click_zoom": 2,
+    "show_prevnext": 0,
+    "show_start": 0,
+    "show_end": 0,
+    "viewer_dir": 1,
+    "rtl": 0,
+    "arrows": 3,
+    "controls_iconset": "iconset7_6",
+    "controls_size": "sm",
+    "controls_style": "background-color:rgba(117, 117, 117, 0.71);top: 20px; bottom: auto; left: auto; right: 50px; flex-direction: row; padding-left: 10px; padding-right: 10px; padding-top: 6px; padding-bottom: 6px; ",
+    "sound_flip": 1
+  },
+  "layers": [
+    {
+      "id": "0",
+      "type": "action",
+      "page": 1,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 333,
+        "height": 147,
+        "left": 245.92,
+        "top": -45.99
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://wa.me/5521981516030?text=Oii%20Madu%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Convite%20em%20Livro!%20",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "1",
+      "type": "action",
+      "page": 2,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 333,
+        "height": 147,
+        "left": 245.92,
+        "top": -45.99
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://wa.me/5521981516030?text=Oii%20Madu%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Convite%20em%20Livro!%20",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "1769719179918",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "editor",
+      "css": {
+        "width": 96,
+        "height": 90,
+        "left": 843,
+        "top": 743
+      },
+      "wrapper": {
+        "width": 462,
+        "height": 821,
+        "left": 589,
+        "top": 20
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://madumattos.com/wp-content/uploads/2026/01/Manual-do-Convidado.png",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline",
+          "poster": null,
+          "autoplay": null,
+          "mute": null,
+          "controls": 1,
+          "noscroll": null,
+          "loop": null,
+          "keep": null,
+          "once": null,
+          "volume": null,
+          "restart": null
+        }
+      }
+    },
+    {
+      "id": "1769719236684",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "editor",
+      "css": {
+        "width": 93,
+        "height": 91,
+        "left": 712,
+        "top": 747
+      },
+      "wrapper": {
+        "width": 462,
+        "height": 821,
+        "left": 589,
+        "top": 20
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://madumattos.com/wp-content/uploads/2026/01/Dress-Code-2.png",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline",
+          "poster": null,
+          "autoplay": null,
+          "mute": null,
+          "controls": 1,
+          "noscroll": null,
+          "loop": null,
+          "keep": null,
+          "once": null,
+          "volume": null,
+          "restart": null
+        }
+      }
+    },
+    {
+      "id": "1769719278063",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "editor",
+      "css": {
+        "width": 81,
+        "height": 81,
+        "left": 778,
+        "top": 659
+      },
+      "wrapper": {
+        "width": 462,
+        "height": 821,
+        "left": 589,
+        "top": 20
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://madumattos.com/wp-content/uploads/2026/01/Sugestao-de-Presente-2.png",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline",
+          "poster": null,
+          "autoplay": null,
+          "mute": null,
+          "controls": 1,
+          "noscroll": null,
+          "loop": null,
+          "keep": null,
+          "once": null,
+          "volume": null,
+          "restart": null
+        }
+      }
+    },
+    {
+      "id": "1769719353243",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "editor",
+      "css": {
+        "width": 85,
+        "height": 81,
+        "left": 687,
+        "top": 663
+      },
+      "wrapper": {
+        "width": 462,
+        "height": 821,
+        "left": 589,
+        "top": 20
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://www.google.com/maps/place/Som+do+Mar+Eventos+-+Casamento+na+Praia+no+RJ/data=!4m2!3m1!1s0x0:0x28a13bf51bf27a0?sa=X&ved=1t:2428&ictx=111",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline",
+          "poster": null,
+          "autoplay": null,
+          "mute": null,
+          "controls": 1,
+          "noscroll": null,
+          "loop": null,
+          "keep": null,
+          "once": null,
+          "volume": null,
+          "restart": null
+        }
+      }
+    },
+    {
+      "id": "1769719631122",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "editor",
+      "css": {
+        "width": 80,
+        "height": 80,
+        "left": 872,
+        "top": 660
+      },
+      "wrapper": {
+        "width": 462,
+        "height": 821,
+        "left": 589,
+        "top": 20
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://wa.me/5521981516030?text=Ol%C3%A1%2C%20gostaria%20de%20confirmar%20a%20minha%20presen%C3%A7a%20para%20o%20casamento%20da%20Milena%20e%20Bento!",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline",
+          "poster": null,
+          "autoplay": null,
+          "mute": null,
+          "controls": 1,
+          "noscroll": null,
+          "loop": null,
+          "keep": null,
+          "once": null,
+          "volume": null,
+          "restart": null
+        }
+      }
+    },
+    {
+      "id": "2",
+      "type": "action",
+      "page": 3,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 333,
+        "height": 147,
+        "left": 245.92,
+        "top": -45.99
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://wa.me/5521981516030?text=Oii%20Madu%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Convite%20em%20Livro!%20",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 124.5,
+        "height": 124.4997,
+        "left": 236.533,
+        "top": 1273.703
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://madumattos.com/wp-content/uploads/2026/01/Dress-Code-2.png",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 124.501,
+        "height": 124.5,
+        "left": 182.146,
+        "top": 1124.873
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://www.google.com/maps/place/Som+do+Mar+Eventos+-+Casamento+na+Praia+no+RJ/data=!4m2!3m1!1s0x0:0x28a13bf51bf27a0?sa=X&ved=1t:2428&ictx=111",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 124.5,
+        "height": 124.5,
+        "left": 337.103,
+        "top": 1124.873
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://madumattos.com/wp-content/uploads/2026/01/Sugestao-de-Presente-2.png",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 124.5,
+        "height": 124.5,
+        "left": 499.628,
+        "top": 1124.873
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://api.whatsapp.com/send/?phone=5521981516030&text=Ol%C3%A1%2C+gostaria+de+confirmar+a+minha+presen%C3%A7a+para+o+casamento+da+Milena+e+Bento%21&type=phone_number&app_absent=0",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 124.5,
+        "height": 124.4997,
+        "left": 464.82,
+        "top": 1273.703
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://madumattos.com/wp-content/uploads/2026/01/Manual-do-Convidado.png",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "type": "action",
+      "page": 4,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 333,
+        "height": 147,
+        "left": 245.92,
+        "top": -45.99
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://wa.me/5521981516030?text=Oii%20Madu%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Convite%20em%20Livro!%20",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "type": "action",
+      "page": 5,
+      "page_end": null,
+      "origin": "pdf",
+      "css": {
+        "width": 333,
+        "height": 147,
+        "left": 245.92,
+        "top": -45.99
+      },
+      "wrapper": {
+        "width": 810,
+        "height": 1447.92,
+        "left": 0,
+        "top": 0
+      },
+      "action": {
+        "highlight": 0,
+        "target": "https://wa.me/5521981516030?text=Oii%20Madu%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Convite%20em%20Livro!%20",
+        "type": "link",
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": "1",
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": null,
+        "url": null,
+        "type": null,
+        "options": {
+          "display": "inline"
+        }
+      }
+    },
+    {
+      "id": "1769719135745",
+      "type": "background",
+      "page": 1,
+      "page_end": 5,
+      "origin": "editor",
+      "css": {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "top": 0
+      },
+      "wrapper": {
+        "width": 442,
+        "height": 785,
+        "left": 599,
+        "top": 56
+      },
+      "action": {
+        "highlight": 0,
+        "target": "",
+        "type": null,
+        "subtype": null,
+        "id_media": null,
+        "extra": {
+          "new_tab": null,
+          "text": null
+        }
+      },
+      "media": {
+        "id_media": "635377cece64e8e60c98231f1757efd578bd2680.mp3",
+        "url": "https://cdnc.heyzine.com/files/user/media/v3/635377cece64e8e60c98231f1757efd578bd2680.mp3",
+        "type": "audio",
+        "options": {
+          "loop": true,
+          "keep": false,
+          "once": false,
+          "volume": null,
+          "display": "inline"
+        }
+      }
+    }
+  ],
+  "lead": null,
+  "bookmark": {
+    "id_bookmark": 2062287,
+    "list": [
+      {
+        "type": "page",
+        "page": 1,
+        "title": "@convitedamadu",
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      },
+      {
+        "type": "page",
+        "page": 1,
+        "title": "convidamos você para nosso casamento",
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      },
+      {
+        "type": "page",
+        "page": 1,
+        "title": "Milena eBento",
+        "kids": [
+          {
+            "type": "page",
+            "page": 1,
+            "title": "PUXE AQUI",
+            "kids": [
+              {
+                "type": "page",
+                "page": 2,
+                "title": "@convitedamadu",
+                "color": "#000000",
+                "background": "#ffffff"
+              }
+            ],
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 2,
+            "title": "SAVE",
+            "color": "#000000",
+            "background": "#ffffff"
+          }
+        ],
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      },
+      {
+        "type": "page",
+        "page": 2,
+        "title": "the",
+        "kids": [
+          {
+            "type": "page",
+            "page": 2,
+            "title": "DATE",
+            "kids": [
+              {
+                "type": "page",
+                "page": 2,
+                "title": "20  . MARÇO .  2027",
+                "kids": [
+                  {
+                    "type": "page",
+                    "page": 2,
+                    "title": "PUXE AQUI",
+                    "kids": [
+                      {
+                        "type": "page",
+                        "page": 3,
+                        "title": "Com a bênção de seus pais...",
+                        "color": "#000000",
+                        "background": "#ffffff"
+                      }
+                    ],
+                    "color": "#000000",
+                    "background": "#ffffff"
+                  }
+                ],
+                "color": "#000000",
+                "background": "#ffffff"
+              }
+            ],
+            "color": "#000000",
+            "background": "#ffffff"
+          }
+        ],
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      },
+      {
+        "type": "page",
+        "page": 3,
+        "title": "Milena",
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      },
+      {
+        "type": "page",
+        "page": 3,
+        "title": "eBento",
+        "kids": [
+          {
+            "type": "page",
+            "page": 3,
+            "title": "a realizar-se no dia",
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 3,
+            "title": "20 | 03 | 2027",
+            "kids": [
+              {
+                "type": "page",
+                "page": 3,
+                "title": "Sábado, às 19h00",
+                "kids": [
+                  {
+                    "type": "page",
+                    "page": 3,
+                    "title": "Local: quiosque som do mar",
+                    "kids": [
+                      {
+                        "type": "page",
+                        "page": 3,
+                        "title": "PUXE AQUI",
+                        "color": "#000000",
+                        "background": "#ffffff"
+                      },
+                      {
+                        "type": "page",
+                        "page": 4,
+                        "title": "@convitedamadu",
+                        "color": "#000000",
+                        "background": "#ffffff"
+                      }
+                    ],
+                    "color": "#000000",
+                    "background": "#ffffff"
+                  }
+                ],
+                "color": "#000000",
+                "background": "#ffffff"
+              }
+            ],
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 4,
+            "title": "Toque nos ícones",
+            "color": "#000000",
+            "background": "#ffffff"
+          }
+        ],
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      },
+      {
+        "type": "page",
+        "page": 4,
+        "title": "para interagir",
+        "kids": [
+          {
+            "type": "page",
+            "page": 4,
+            "title": "Saiba como chegar",
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 4,
+            "title": "Confirmar Presença",
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 4,
+            "title": "Para nos presentear",
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 4,
+            "title": "PUXE AQUI",
+            "kids": [
+              {
+                "type": "page",
+                "page": 4,
+                "title": "Manual dos convidados",
+                "color": "#000000",
+                "background": "#ffffff"
+              },
+              {
+                "type": "page",
+                "page": 4,
+                "title": "Dress Code",
+                "color": "#000000",
+                "background": "#ffffff"
+              }
+            ],
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 5,
+            "title": "@convitedamadu",
+            "color": "#000000",
+            "background": "#ffffff"
+          },
+          {
+            "type": "page",
+            "page": 5,
+            "title": "PUXE AQUI",
+            "color": "#000000",
+            "background": "#ffffff"
+          }
+        ],
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      },
+      {
+        "type": "page",
+        "page": 5,
+        "title": "Esperamos por você",
+        "style": null,
+        "color": "#000000",
+        "background": "#ffffff"
+      }
+    ]
+  }
+}

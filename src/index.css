@@ -1,0 +1,144 @@
+:root {
+  /* Curated Harmonious Wedding Color Palette */
+  --primary-color: #5d7554;     /* Sage/Olive Green from the floral card */
+  --primary-dark: #41523b;      /* Darker olive for text/hover states */
+  --secondary-color: #5d7554;   /* Sage/Olive Green (predominant green theme) */
+  --secondary-light: #8da683;   /* Lighter Sage Green for highlights */
+  --bg-cream: #f9f7f1;          /* Warm Ivory/Cream paper background */
+  --text-dark: #2f3e2e;         /* Warm deep green-gray for typography */
+  --text-muted: #5e6b5d;        /* Muted sage for secondary details */
+  --white: #ffffff;
+  --overlay-bg: rgba(255, 255, 255, 0.85);
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(93, 117, 84, 0.15);
+  --shadow-soft: 0 8px 32px rgba(93, 117, 84, 0.12);
+  --shadow-medium: 0 16px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(93, 117, 84, 0.05);
+  --shadow-book: 0 20px 50px rgba(41, 52, 39, 0.25), 0 5px 15px rgba(0, 0, 0, 0.1);
+  --transition-smooth: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+
+  /* Fonts */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+  color: var(--text-dark);
+  background-color: #e8ddd0;
+  /* Venue watercolor illustration as the global background behind the book */
+  background-image: 
+    linear-gradient(to bottom, rgba(245, 240, 235, 0.55) 0%, rgba(235, 225, 210, 0.6) 100%),
+    url('/assets/images/venue_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Typography styles */
+h1, h2, h3, .font-serif {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: var(--primary-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: var(--transition-smooth);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Animations helper */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.05); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.05); }
+}
+
+/* Utility classes */
+.shadow-soft { box-shadow: var(--shadow-soft); }
+.shadow-medium { box-shadow: var(--shadow-medium); }
+.shadow-book { box-shadow: var(--shadow-book); }
+.text-center { text-align: center; }
+
+/* Elegant buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(93, 117, 84, 0.3);
+  transition: var(--transition-smooth);
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(65, 82, 59, 0.4);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
