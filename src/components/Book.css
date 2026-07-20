@@ -14,7 +14,7 @@
   position: relative;
   /* Responsive mobile-first sizing based on the aspect ratio of the card (726 x 1024 = 0.709) */
   width: min(410px, 92vw);
-  height: min(580px, 92vw / 0.709);
+  height: min(615px, 94vw / 0.709);
   background-color: var(--bg-cream);
   border-radius: 4px;
   transform-style: preserve-3d;
