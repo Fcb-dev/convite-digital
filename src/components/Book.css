@@ -40,8 +40,8 @@
 .flip-hotspot {
   position: absolute;
   bottom: 0;
-  width: 65px;
-  height: 65px;
+  width: 88px;
+  height: 88px;
   background: none;
   border: none;
   outline: none;
@@ -55,9 +55,17 @@
   border-radius: 0 0 4px 0;
 }
 
+.hotspot-right:hover .page-corner-fold {
+  transform: scale(1.035);
+}
+
 .hotspot-left {
   left: 0;
   border-radius: 0 0 0 4px;
+}
+
+.hotspot-left:hover .page-corner-fold {
+  transform: scale(1.035);
 }
 
 /* Page curl dog-ear design */

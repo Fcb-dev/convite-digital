@@ -27,21 +27,14 @@ export default function App() {
             </div>
           </Page>
 
-          {/* PAGE 2: SAVE THE DATE */}
-          <Page>
-            <div className="save-the-date-page-new">
-              {/* No HTML text or other elements, just the background image floral_2.jpg */}
-            </div>
-          </Page>
-
-          {/* PAGE 3: OFFICIAL INVITATION CARD */}
+          {/* PAGE 2: OFFICIAL INVITATION CARD */}
           <Page>
             <div className="invitation-card-page-new">
               {/* No text or child images, just the background image floral_3.jpg */}
             </div>
           </Page>
 
-          {/* PAGE 4: INTERACTIVE ACTIONS */}
+          {/* PAGE 3: INTERACTIVE ACTIONS */}
           <Page>
             <div className="interactive-page-new">
               <div className="floating-buttons-container">
@@ -119,10 +112,10 @@ export default function App() {
             </div>
           </Page>
 
-          {/* PAGE 5: BACK COVER */}
+          {/* PAGE 4: BACK COVER */}
           <Page>
             <div className="back-cover-page-new">
-              {/* No HTML text or other elements, just the background image floral_5.jpg */}
+              <h2 className="back-cover-message">Esperamos vocês</h2>
             </div>
           </Page>
         </Book>

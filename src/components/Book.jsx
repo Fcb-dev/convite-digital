@@ -110,7 +110,12 @@ export default function Book({ children }) {
             onClick={nextPage}
             aria-label="Próxima página"
           >
-            <div className="corner-curl curl-right"></div>
+            <div className="page-corner-fold" aria-hidden="true">
+              <div className="turn-hint">
+                <span>Folheie</span>
+                <span className="turn-hint-arrow">›</span>
+              </div>
+            </div>
           </button>
         )}
 
@@ -121,7 +126,12 @@ export default function Book({ children }) {
             onClick={prevPage}
             aria-label="Página anterior"
           >
-            <div className="corner-curl curl-left"></div>
+            <div className="page-corner-fold page-corner-fold-left" aria-hidden="true">
+              <div className="turn-hint turn-hint-left">
+                <span className="turn-hint-arrow">‹</span>
+                <span>Voltar</span>
+              </div>
+            </div>
           </button>
         )}
       </div>

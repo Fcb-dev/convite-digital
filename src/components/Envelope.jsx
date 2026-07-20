@@ -1,50 +1,52 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Envelope.css';
 
 export default function Envelope({ onOpen }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleOpen = () => {
+    if (isOpen) return;
+
     setIsOpen(true);
-    // Delay triggering onOpen to allow the opening transition animation to complete
+
     setTimeout(() => {
       onOpen();
-    }, 1200);
+    }, 1000);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      handleOpen();
+    }
   };
 
   return (
     <div className={`envelope-container ${isOpen ? 'envelope-opened' : ''}`}>
-      <div className="envelope-card shadow-book">
-        {/* Decorative corner leaves */}
-        <div className="corner-decor top-left"></div>
-        <div className="corner-decor top-right"></div>
-        <div className="corner-decor bottom-left"></div>
-        <div className="corner-decor bottom-right"></div>
+      <div
+        className="envelope-card shadow-book"
+        onClick={handleOpen}
+        onKeyDown={handleKeyDown}
+        role="button"
+        tabIndex={isOpen ? -1 : 0}
+        aria-label="Abrir e folhear convite de casamento"
+      >
+        <img
+          className="entrance-photo"
+          src="/assets/images/pre-wedding-114.jpg"
+          alt="Yasmin e Felipe"
+        />
 
         <div className="envelope-content">
-          <div className="wedding-header">
-            <span className="subtitle">Você recebeu um convite</span>
-            <span className="divider-line"></span>
-          </div>
-
           <h1 className="couple-names">Yasmin & Felipe</h1>
-          
           <p className="wedding-date">06 . SETEMBRO . 2026</p>
+        </div>
 
-          <button 
-            id="open-invite-btn"
-            className="open-btn" 
-            onClick={handleOpen}
-            aria-label="Abrir convite de casamento"
-          >
-            <div className="wax-seal-wrapper">
-              <div className="wax-seal">
-                <img src="/assets/images/logo_1.png" alt="Y&F Logo" className="seal-logo" />
-              </div>
-              <div className="pulse-ring"></div>
-            </div>
-            <span className="btn-label">Tocar para Abrir</span>
-          </button>
+        <div className="page-corner-fold" aria-hidden="true">
+          <div className="turn-hint">
+            <span>Folheie</span>
+            <span className="turn-hint-arrow">›</span>
+          </div>
         </div>
       </div>
     </div>

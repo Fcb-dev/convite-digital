@@ -59,17 +59,17 @@
   box-shadow: inset -5px 0 15px rgba(0, 0, 0, 0.05);
 }
 
-/* Blurred background of the kissing couple from the cover */
+/* Blurred pre-wedding photo shown on the back of every turned page */
 .paper-texture-backing::before {
   content: '';
   position: absolute;
   inset: -15px; /* Expand to hide blurred border artifacts */
   background-image: 
     linear-gradient(to bottom, rgba(30, 25, 20, 0.25) 0%, rgba(30, 25, 20, 0.4) 100%),
-    url('/assets/images/cover.jpg');
+    url('/assets/images/pre-wedding-182.jpg');
   background-size: cover;
-  background-position: center 25%;
-  filter: blur(8px) saturate(1.1) brightness(0.75);
+  background-position: center center;
+  filter: blur(1px) saturate(1.1) brightness(0.75);
   z-index: 1;
 }
 

@@ -15,9 +15,9 @@
 .cover-page {
   background-image: 
     linear-gradient(to bottom, rgba(20, 18, 16, 0.1) 40%, rgba(20, 18, 16, 0.75) 100%),
-    url('/assets/images/cover.jpg');
+    url('/assets/images/pre-wedding-139.jpg');
   background-size: cover;
-  background-position: center 25%;
+  background-position: center center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -46,21 +46,11 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 3.5px;
-  color: var(--secondary-color);
+  color: #afa178;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* Page 2: Save the Date Page - Image Only */
-.save-the-date-page-new {
-  width: 100%;
-  height: 100%;
-  background-image: url('/assets/images/floral_2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* Page 3: Official Invitation Card - Image Only */
+/* Page 2: Official Invitation Card - Image Only */
 .invitation-card-page-new {
   width: 100%;
   height: 100%;
@@ -70,7 +60,7 @@
   background-repeat: no-repeat;
 }
 
-/* Page 4: Interactive details page with Floral Background and Floating Buttons */
+/* Page 3: Interactive details page with Floral Background and Floating Buttons */
 .interactive-page-new {
   width: 100%;
   height: 100%;
@@ -159,12 +149,31 @@
   color: #5d7554;
 }
 
-/* Page 5: Back Cover - Image Only */
+/* Page 4: Back Cover - Image Only */
 .back-cover-page-new {
+  position: relative;
   width: 100%;
   height: 100%;
-  background-image: url('/assets/images/floral_5.jpg');
+  background-image:
+    linear-gradient(to bottom, rgba(255, 250, 241, 0.5) 0%, transparent 28%),
+    url('/assets/images/pre-wedding-178.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.back-cover-message {
+  position: absolute;
+  top: clamp(26px, 6vh, 25px);
+  right: 20px;
+  left: 20px;
+  margin: 0;
+  color: #806f2f;
+  font-family: 'Alex Brush', 'Pinyon Script', cursive;
+  font-size: clamp(2.55rem, 9vw, 3.35rem);
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.85);
+  text-transform: none;
 }
