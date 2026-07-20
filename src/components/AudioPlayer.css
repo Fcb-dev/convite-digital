@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color);
+  color: #afa178;
   transition: var(--transition-smooth);
 }
 
@@ -64,7 +64,7 @@
 
 .wave-bar {
   width: 2px;
-  background-color: var(--secondary-color);
+  background-color: #afa178;
   border-radius: 1px;
   animation: bounce-wave 1s ease-in-out infinite;
 }
